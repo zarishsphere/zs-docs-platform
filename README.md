@@ -1,38 +1,37 @@
 # zs-docs-platform
 
-> **Part of:** [ZarishSphere Platform](https://github.com/zarishsphere) | **Layer:** Governance & Documentation
-> **Type:** Documentation | **Governance:** RFC-0001
-> **Status:** 🔴 Bootstrap
+> **ZarishSphere Platform Master Documentation**
+> **Governance:** RFC-0001 | **Owner:** arwa-zarish | **Version:** 1.0.0
+> **Last Updated:** 2026-03-24
 
-Master platform documentation, RFCs, ADRs, contributor guides, governance
-
-## About This Repository
-
-This repository is part of ZarishSphere's **Documentation as Code** principle:
+This is the single source of truth for the ZarishSphere platform.
 > *"If it is not documented, it does not exist."*
 
-All decisions, standards, and processes are stored here as versioned Markdown files,
-reviewed via pull requests, and governed through the RFC process.
+## What Lives Here
 
-## Repository Structure
+| Folder | Contents |
+|--------|----------|
+| `docs/architecture/` | System architecture, ADR index, BLUEPRINT |
+| `docs/contributing/` | CONTRIBUTING.md, onboarding guides |
+| `docs/governance/` | RFC process, decision-making, voting |
+| `docs/standards/` | Coding standards, FHIR policies |
+| `docs/roadmap/` | TODO, milestones, release planning |
 
-```
-zs-docs-platform/
-├── docs/                # Main documentation files
-├── templates/           # Document templates
-├── .github/
-│   └── workflows/       # Automated validation
-└── README.md
-```
+## How to Propose a Change
 
-## How to Contribute
+1. Open an Issue using the **RFC template**
+2. 14-day community comment period
+3. 2 owner votes required to accept
+4. Accepted RFC → PR → Merge → Done
 
-1. Open a pull request with your proposed changes
-2. Request review from at least 1 platform owner
-3. Merge after approval
+## Platform Owners
 
-See [CONTRIBUTING.md](https://github.com/zarishsphere/.github/blob/main/CONTRIBUTING.md) for the full process.
+| Role | GitHub |
+|------|--------|
+| Platform Lead | [@arwa-zarish](https://github.com/arwa-zarish) |
+| Technical Lead | [@code-and-brain](https://github.com/code-and-brain) |
+| DevOps Lead | [@DevOps-Ariful-Islam](https://github.com/DevOps-Ariful-Islam) |
+| Health Programs | [@BGD-Health-Program](https://github.com/BGD-Health-Program) |
 
 ---
-
-*Part of the [ZarishSphere Platform](https://zarishsphere.com) — Documentation is the single source of truth.*
+*[zarishsphere.com](https://zarishsphere.com) · Free · Open Source · FHIR R5*
