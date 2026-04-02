@@ -1,4 +1,6 @@
 name: CI — Platform Documentation
+permissions:
+  contents: read
 
 on:
   push:
